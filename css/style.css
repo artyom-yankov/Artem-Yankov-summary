@@ -1,16 +1,142 @@
 body {
-  width: 1200px;
-  padding: 20px;
-  background-color: antiquewhite;
+  background-color: rgb(20, 10, 00);
+  max-width: 900px;
+  margin: 30px;
 }
 
-.name {
-  margin: 20px;
-  padding: ;
+.link {
+  text-decoration: none;
 }
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+/*
+font-family: 'Roboto Mono', monospace;
+font-family: 'Syne Mono', monospace;
+*/
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.name-header {
+  color: aliceblue;
+  margin-left: 12px;
+}
+
+.name-header + .contect {
+  margin-left: 150px;
+}
+
+.contect {
+  font-family: "Syne Mono", monospace;
+  position: relative;
+  text-align: center;
+  color: rgb(131, 128, 128);
+  padding: 30px;
+  margin-left: 50px;
+}
+
+.contect:hover,
+.contect:focus {
+  color: rgb(235, 155, 8);
+  /* background-color: black;
+  box-shadow: 6px 6px 10px 5px rgb(126, 121, 121);*/
+}
+
+.skills {
+  font-family: "Roboto Mono", monospace;
+  color: bisque;
+  margin-left: 12px;
+}
+
+.skill {
+  font-family: "Syne Mono", monospace;
+  color: bisque;
+}
+
+.soft-skills {
+  color: bisque;
+  margin-left: 12px;
+}
+
+.soft-skill {
+  color: bisque;
+}
+
+/* Игры*/
+.background-games {
+  margin: 20px;
+  background-color: gray;
+  border: 2px solid #e2c978;
+  border-radius: 25px;
+}
+
+.games {
+  color: bisque;
+  margin-left: 12px;
+}
+
+.cards-games {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-gap: 32px;
+  grid-auto-flow: dense;
+}
+
+.name-games {
+  margin: 10px;
+  text-align: center;
+}
+
+.card-game {
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.card-game:hover,
+.card-game:focus {
+  background-color: rgba(238, 177, 10, 0.5);
+  box-shadow: 6px 6px 10px 5px rgb(121, 117, 72);
+}
+
+.img-game {
+  width: 200px;
+}
+
+.game {
+  font-family: "Syne Mono", monospace;
+}
+
+.name-games {
+  color: rgb(13, 41, 48);
+}
+
+/* Игри\*/
 
 .img {
   margin-left: 20px;
   width: 200px;
   box-shadow: 6px 6px 10px 5px rgb(126, 121, 121);
+}
+
+/*обо мне*/
+
+.me-section {
+  color: beige;
+  position: absolute;
+  top: 110px;
+  left: 300px;
+  width: 600px;
+}
+p {
+  font-size: 20px;
+  line-height: 1.5;
 }

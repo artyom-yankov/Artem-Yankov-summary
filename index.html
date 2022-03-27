@@ -5,55 +5,148 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artyom</title>
-    <link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;600&family=Syne+Mono&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <section class="">
-        <h1 class="name">Yankov Artyom</h1>
-        <img class="img" src="./img/port.card/20201215_130832.png" alt="фото" width="270">
-        
+    <header class="header">       
+         <h1 class="name-header">Yankov Artyom</h1>
+            <a class="contect link" href="mailto:solomonken7@gmail.com">solomonken7@gmail.com</a>
+            <a class="contect link" href="tel:+380635372891">+38 063 537 28 91</a>
+                    
+    </header>
+<main>
+   
+        <img 
+            class="img" 
+            src="./img/port.card/20201215_130832.png" 
+            alt="фото"
+            width="270"
+            >
 
-        <h3>Skills</h3>
+                <section class="me-section">
+                
+                    <h3>Something about me</h3>
+                
+                    <p>
+                        My name is Artyom Yankov, I'm 29. I worked as an organizer of sporting events. A year ago I started to discover
+                        the
+                        world of IT and I started to study as a JS developer in the future I want to program games or develop
+                        applications.
+                    </p>
+                
+                    <p>My goal is not, to find as many bugs as possible! I want to help make the Game/Program/Website much better.</p>
+                </section>
 
-        <ul>
-            <ol>HTML</ol>
-            <ol>CSS</ol>
-            <ol>Git</ol>
-            <ol>Trello</ol>
-            <ol>JavaScript (studying)</ol>
-        </ul>
-        
-        <h3>Soft skills</h3>
-
-        <ul>
-            <ol>Communication</ol>
-            <ol>Never say "I know everything"</ol>
-            <ol>I am punctual</ol>
-            <ol></ol>
-        </ul>
-        <h3>Games</h3>
-
+        <h3 class="skills">Skills</h3>
             <ul>
-                <ol><a href="https://www.youtube.com/watch?v=-GBXuE6jcl4"> the last of us</a></ol>
-                <ol><a href="https://www.youtube.com/watch?v=QwreMeXlFoY">the last of us 2</a> </ol>
-                <ol><a href="https://www.youtube.com/watch?v=veLQ2cdyBBo">horizon</a></ol>
-                <ol><a href="https://www.youtube.com/watch?v=Ym3t_stYj1w">tomb raider</a></ol>
-                <ol><a href="https://www.youtube.com/watch?v=c55IeNUYKGc">detroit</a></ol>
-                <ol><a href="https://www.youtube.com/watch?v=c0H5VYbcaxM">dying light the following</a></ol>
-                <ol><a href="https://www.youtube.com/watch?v=PAKxFFgVlqo">mortal kombat 11</a></ol>
-                <ol><a href="https://www.youtube.com/watch?v=_AWw2Haadbk">witcher</a></ol>
-                <ol><a href="https://www.youtube.com/watch?v=OeS_PNYVgzU">CS GO</a></ol>
+                <li class="skill list">HTML</li>
+                <li class="skill list">CSS</li>
+                <li class="skill list">Git</li>
+                <li class="skill list">Trello</li>
+                <li class="skill list">JavaScript (studying)</li>
             </ul>
-    </section>
-    <section>
+            
+        <h3 class="soft-skills">Soft skills</h3>
+            <ul>
+                <li class="soft-skill list">Communication</li>
+                <li class="soft-skill list">Never say "I know everything"</li>
+                <li class="soft-skill list">I am punctual</li>
+                <li class="soft-skill list">Accept good criticism</li>
+                <li class="soft-skill list">I work well in a team</li>
+                <li class="soft-skill list">Fast learner</li>
+                <li class="soft-skill list">Proactive</li>
+            </ul>
+             <h3 class="games">Games</h3>
+        <div class="background-games">
+            <ul class="cards-games">
+                <li class="game list " >
+                    <div class="card-game">
+                         <a class=" link" href="https://www.youtube.com/watch?v=PAKxFFgVlqo">
+                            <h3 class="name-games">mortal kombat 11</h3>
+                            <img class="img-game" src="/img/games/mortal-kombat.png" alt="" width="">
+                         </a>
+                    </div>
+                </li>
+                 
+                <li class="game list " >
+                    <div class="card-game">
+                         <a class=" link" href="https://www.youtube.com/watch?v=-GBXuE6jcl4"> 
+                             <h3 class="name-games">the last of us</h3>
+                             <img class="img-game" src="/img/games/The-Last-Of-Us.png" alt="" width="">
+                        </a>
+                    </div>    
+                 </li>
+                <li class="game list " >
+                    <div class="card-game"> 
+                        <a class=" link" href="https://www.youtube.com/watch?v=OeS_PNYVgzU">
+                            <h3 class="name-games">CS GO</h3>
+                            <img class="img-game" src="/img/games/counter-strike.png" alt="CS GO" width="">
+                        </a>
+                    </div>
+                </li>
+                <li class="game list " >
+                    <div class="card-game">
+                        <a class=" link" href="https://www.youtube.com/watch?v=QwreMeXlFoY">
+                            <h3 class="name-games">the last of us 2</h3>
+                            <img class="img-game" src="/img/games/the-lost-of-us2.png" alt="the last of us 2" width="">
+                        </a>
+                    </div>
+                </li>
+                <li class="game list " >
+                    <div class="card-game">
+                        <a class=" link" href="https://www.youtube.com/watch?v=veLQ2cdyBBo">
+                            <h3 class="name-games">horizon</h3>
+                            <img class="img-game" src="/img/games/horizon.png" alt="horizon" width="">
+                        </a>
+                    </div>
+                </li>
+                <li class="game list " >
+                    <div class="card-game">
+                        <a class=" link" href="https://www.youtube.com/watch?v=Ym3t_stYj1w">
+                            <h3 class="name-games">tomb raider</h3>
+                            <img class="img-game" src="/img/games/tomb-roider.png" alt="tomb raider" width="">
+                        </a>
+                    </div>
+                </li>
+                <li class="game list " >
+                    <div class="card-game">
+                        <a class=" link" href="https://www.youtube.com/watch?v=c55IeNUYKGc">
+                            <h3 class="name-games">Detroit</h3>
+                            <img class="img-game" src="/img/games/detroit.png" alt="detroit" width="">
+                        </a>
+                    </div>
+                </li>
+                <li class="game list " >
+                    <div class="card-game">
+                        <a class=" link" href="https://www.youtube.com/watch?v=c0H5VYbcaxM">
+                            <h3 class="name-games">Dying Light The Following</h3>
+                            <img class="img-game" src="/img/games/DL.png" alt="dying light the following" width="">
+                        </a>
+                    </div>
+                </li>
+                <li class="game list " >
+                    <div class="card-game">
+                        <a class=" link" href="https://www.youtube.com/watch?v=_AWw2Haadbk">
+                            <h3 class="name-games">Witcher</h3>
+                            <img class="img-game" src="/img/games/witcher.png" alt="witcher" width="">
+                        </a> 
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
 
-        <h3>Something about me</h3>
 
-        <p>
-            My name is Artyom Yankov, I'm 29. I worked as an organizer of sporting events. A year ago I started to discover the
-            world of IT and I started to study as a JS developer in the future I want to program games or develop applications.
-        </p>
-        
-    </section>
+</main>
+<footer>
+
+</footer>
 </body>
 </html>
